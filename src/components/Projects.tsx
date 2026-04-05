@@ -17,7 +17,7 @@ const Projects = () => {
     },
     {
       title: "Movie Recommendation System",
-      description: "Engineered a content-based movie recommender in Python using TF-IDF and cosine similarity across 6,000+ films."
+      description: "Engineered a content-based movie recommender in Python using TF-IDF and cosine similarity across 6,000+ films.",
       tags: ["Recommendation System", "Python", "Data Pipline", "Kaggle"],
       githubUrl: "https://github.com/chrissaia/Movie-Reccomender-AI"
     },
