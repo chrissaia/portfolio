@@ -3,11 +3,11 @@ const Education = () => {
     {
       degree: "Bachelor of Science in Data Science",
       degree2: "Bachelor of Science in Computer Science",
-      minor: "Mathematics"
+      minor: "Mathematics",
       school: "Loyola Maryland University Maryland",
       location: "Baltimore, Maryland - United States",
       period: "Sep 2023 – May 2027",
-      gpa: "President of Data Science Club"
+      gpa: "President of Data Science Club",
       relevant_coursework: "Coursework: Business Intelligence & Data Mining, Database Management Systems, Experimental Research Methods, Software Testing, Computer Systems, Computer Engineering, Object-Oriented Software Design"
     },
     {
@@ -15,7 +15,7 @@ const Education = () => {
       school: "Vrije Universiteit Amsterdam",
       location: "Amsterdam, NL",
       period: "Jan 2026 – May 2026",
-      gpa: ""
+      gpa: "",
       relevant_coursework: "Computational Intelligence (Machine Learning), Linear Algebra, Information Management for CS"
     }
   ];
