@@ -50,12 +50,14 @@ const Research = () => {
 
                 <div className="flex justify-between items-center">
                   <span className="text-xs text-muted-foreground">{paper.date}</span>
-                  <Link
-                    to={paper.link}
-                    className="text-primary hover:text-primary/80 text-sm font-medium transition-colors"
-                  >
-                    Read More →
-                  </Link>
+                    <a
+                      href={paper.link}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-primary hover:text-primary/80 font-medium transition-colors"
+                    >
+                      Read More →
+                    </a>
                 </div>
               </div>
             ))}
