@@ -2,7 +2,7 @@ const Skills = () => {
   const skillCategories = [
     {
       title: "Machine Learning & AI",
-      skills: ["Python", "PyTorch", "LiteLMM", "Scikit-learn", "Hugging Face", "XGBoost", "Neural Networks"]
+      skills: ["Python", "PyTorch", "LiteLLM", "Scikit-learn", "Hugging Face", "XGBoost", "Neural Networks"]
     },
     {
       title: "Cloud & MLOps", 
@@ -23,7 +23,7 @@ const Skills = () => {
           </h2>
           
           <p className="text-center text-muted-foreground mb-12 animate-fade-in" style={{ animationDelay: '0.1s' }}>
-            Expertise in AI/ML, Data Analytics, Data Engineering with focuses in Finance and Product Management.
+            Expertise in AI/ML, Data Analytics, Data Engineering with focuses in Computer Vision, Finance and Product Management.
           </p>
           
           <div className="grid md:grid-cols-3 gap-8 mb-16">
@@ -59,7 +59,8 @@ const Skills = () => {
               <div className="space-y-2">
                 <span className="inline-block px-3 py-1 bg-primary/10 text-primary rounded-full text-sm font-medium">OpenAI, Claude, Gemini</span>
                 <span className="inline-block px-3 py-1 bg-primary/10 text-primary rounded-full text-sm font-medium">Prompt Engineering</span>
-                <span className="inline-block px-3 py-1 bg-primary/10 text-primary rounded-full text-sm font-medium">Neural Networks, Neuroevolution</span>
+                <span className="inline-block px-3 py-1 bg-primary/10 text-primary rounded-full text-sm font-medium">Neural Networks</span>
+                 <span className="inline-block px-3 py-1 bg-primary/10 text-primary rounded-full text-sm font-medium">Neuroevolution</span>
               </div>
             </div>
             
@@ -68,15 +69,17 @@ const Skills = () => {
               <div className="space-y-2">
                 <span className="inline-block px-3 py-1 bg-primary/10 text-primary rounded-full text-sm font-medium">FastAPI</span>
                 <span className="inline-block px-3 py-1 bg-primary/10 text-primary rounded-full text-sm font-medium">Flask</span>
+                <span className="inline-block px-3 py-1 bg-primary/10 text-primary rounded-full text-sm font-medium">Gradio</span>
               </div>
             </div>
             
             <div className="glass-card rounded-lg p-6 text-center">
               <h4 className="text-lg font-semibold text-primary mb-4">Specializations</h4>
               <div className="space-y-2">
-                <span className="inline-block px-3 py-1 bg-primary/10 text-primary rounded-full text-sm font-medium">Healthcare AI</span>
-                <span className="inline-block px-3 py-1 bg-primary/10 text-primary rounded-full text-sm font-medium">Demand Forecasting</span>
-                <span className="inline-block px-3 py-1 bg-primary/10 text-primary rounded-full text-sm font-medium">Anomaly Detection</span>
+                <span className="inline-block px-3 py-1 bg-primary/10 text-primary rounded-full text-sm font-medium">AI Product Management</span>
+                <span className="inline-block px-3 py-1 bg-primary/10 text-primary rounded-full text-sm font-medium">Computer Vision</span>
+                <span className="inline-block px-3 py-1 bg-primary/10 text-primary rounded-full text-sm font-medium">MLOps</span>
+                 <span className="inline-block px-3 py-1 bg-primary/10 text-primary rounded-full text-sm font-medium">Financial AI</span>
               </div>
             </div>
             

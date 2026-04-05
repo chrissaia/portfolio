@@ -1,52 +1,49 @@
 const Experience = () => {
   const experiences = [
     {
-      title: "AI Engineer",
-      company: "Hygia",
+      title: "Deep Learning Intern",
+      company: "Amizen Labs - threatvision.ai",
       location: "Remote",
-      period: "Apr 2025 - Current",
+      period: "May 2025 - August 2025",
       achievements: [
-        "Built AI agents using AWS Bedrock and Python to monitor patient vitals in real time, alerting clinicians to critical changes and improving response efficiency across 50+ hospital units",
-        "Automated multi-step patient data workflows with LangGraph, consolidating EMR and sensor inputs to deliver actionable insights, reducing manual data review by 40%",
-        "Applied prompt engineering to enhance LLM outputs for patient queries and clinical decision support, integrating results into dashboards that helped doctors review patient trends 30% faster and respond proactively"
-      ]
+        "Implemented and deployed a real-time object detection prototype on the NVIDIA Jetson Nano to evaluate edge inference performance for weapon detection",
+        "Trained a custom YOLOv5 model in Python through transfer learning and fine-tuning with Ultralytics/Pytorch",
+        "Used a dataset with 8,000 images in Roboflow, achieving mAP@50 = 0.98",
+        "Optimized inference speed with TensorRT maximizing NGC container properties, boosting throughput from 5 FPS to 27 FPS (+440%) while maintaining accuracy",
+        "Researched model pruning, quantization, and GPU profiling to analyze trade-offs between speed, precision, and storage usage on Jetson Nano",
+        "Documented results and delivered a video demonstration showcasing 92% detection accuracy and real-time insights",
+        ]
     },
     {
-      title: "AI Engineer",
-      company: "Cardinal Health",
-      location: "Remote",
-      period: "Jan 2024 - Mar 2025",
+      title: "Data Engineer Intern",
+      company: "Rocket Money",
+      location: "Silver Spring, Maryland",
+      period: "May 2026 - Aug 2026",
       achievements: [
-        "Developed deep learning demand forecasting models in PyTorch using historical shipment and seasonal demand data; improved SKU-level forecast accuracy by 21% across 600+ distribution centers",
-        "Designed a content-based product recommendation system using Sentence Transformer embeddings to suggest clinically equivalent medical supplies, cutting stockout-related order delays by 18%",
-        "Implemented an MLOps pipeline with MLflow and AWS SageMaker for automated retraining, feature store updates, and drift monitoring; reduced manual model maintenance time by 60%",
-        "Built a RAG-powered internal search tool with LangChain and Pinecone to retrieve regulatory and product documentation for pharmacists, decreasing information lookup time from minutes to seconds",
-        "Created interactive Tableau dashboards integrating model outputs with inventory KPIs, enabling supply planners to adjust procurement schedules in near real-time"
-      ]
+        "To Be continued..."
+        ]
     },
     {
-      title: "Data Scientist",
-      company: "Wipro Ltd",
-      location: "India",
-      period: "Sep 2019 - Sep 2022",
+      title: "Data Consultant",
+      company: "Wild Bay Distribution",
+      location: "Baltimore, Maryland",
+      period: "Sep 2024 - May 2025",
       achievements: [
-        "Architected gradient boosting models in XGBoost to measure price elasticity across multiple product categories, enabling real-time price adjustments during promotions and driving a 6.4% quarterly revenue lift",
-        "Formulated a churn risk prediction framework in scikit-learn using purchase patterns and service interaction histories; achieved 92% recall on high-risk customers, directly informing targeted retention strategies",
-        "Devised a hybrid recommendation ranking system blending collaborative filtering with demographic-based rules, boosting acceptance rate of recommended items by 24% in controlled A/B experiments",
-        "Streamlined weekly analytics workflows by scripting automated data validation and anomaly detection in PySpark, shrinking preprocessing time from 3 days to under 6 hours without impacting data accuracy",
-        "Orchestrated interactive Power BI dashboards combining behavioral metrics with live campaign data, enabling marketing teams to monitor ROI daily and reallocate budget within the same week"
-      ]
+        "Built and launched a B2B website to expand wholesale, so retailers can access product listings and submit bulk orders",
+        "Utilized Power BI analytics to present customer engagement, revenue drivers, and website traffic recommendations",
+        "Produced actionable data-driven recommendations on marketing, risk management and SEO optimization that supported a 40% increase in wholesale inquiries post-launch",
+        ]
     },
     {
-      title: "Data Scientist Intern",
-      company: "Space Infolab",
-      location: "India",
-      period: "Feb 2019 - Aug 2019",
+      title: "Data Consultant",
+      company: "York Business Improvement District",
+      location: "Baltimore, Maryland",
+      period: "Jan 2024 - May 2024",
       achievements: [
-        "Processed and cleaned large-scale financial transaction datasets using Python (Pandas, NumPy) and SQL, improving data quality and reducing errors by 35% for downstream modeling",
-        "Developed statistical models to detect anomalies and potential fraud patterns in client transactions, increasing suspicious activity identification by 22% during the internship period",
-        "Conducted exploratory data analysis and visualization in Matplotlib and Seaborn to support risk teams in portfolio risk assessment, influencing rebalancing decisions involving assets worth $1.5M"
-      ]
+        "Evaluated economic data from city databases to measure safety, business growth, and public maintenance outcomes",
+        "Formulated a performance measurement system with 20+ key indicators to track revitalization progress and BID impact across low-income Baltimore neighborhoods",
+        "Designed Power BI dashboards visualizing KPIs like crime rates, retail leakage, business longevity, and investments",
+        ]
     }
   ];
 

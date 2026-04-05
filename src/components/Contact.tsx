@@ -95,8 +95,8 @@ const Contact = () => {
                   </div>
                   <div>
                     <p className="font-medium">Email</p>
-                    <a href="mailto:pendekantiseetharam@gmail.com" className="text-muted-foreground hover:text-primary transition-colors">
-                      pendekantiseetharam@gmail.com
+                    <a href="mailto:christopherfsaia@gmail.com" className="text-muted-foreground hover:text-primary transition-colors">
+                      christopherfsaia@gmail.com
                     </a>
                   </div>
                 </div>
@@ -107,8 +107,8 @@ const Contact = () => {
                   </div>
                   <div>
                     <p className="font-medium">Phone</p>
-                    <a href="tel:+17182855670" className="text-muted-foreground hover:text-primary transition-colors">
-                      +1 718 285 5670
+                    <a href="tel:+9735257452" className="text-muted-foreground hover:text-primary transition-colors">
+                      +1 973 525 7452
                     </a>
                   </div>
                 </div>
@@ -119,7 +119,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <p className="font-medium">Location</p>
-                    <p className="text-muted-foreground">Harrison, New Jersey, USA</p>
+                    <p className="text-muted-foreground">Morristown, New Jersey, USA</p>
                   </div>
                 </div>
                 
@@ -130,7 +130,7 @@ const Contact = () => {
                   <div>
                     <p className="font-medium">Resume</p>
                     <a 
-                      href="https://drive.google.com/file/d/1smvOPm0GoZUD9bkj5PM43-RodyMD57tX/view?usp=share_link" 
+                      href="https://drive.google.com/file/d/16WakalzwljpqtNFVxgaSMnIlhH_YSx4q/view?usp=sharing"
                       target="_blank" 
                       rel="noopener noreferrer"
                       className="text-muted-foreground hover:text-primary transition-colors"

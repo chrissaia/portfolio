@@ -1,18 +1,22 @@
 const Education = () => {
   const education = [
     {
-      degree: "Master of Science in Data Science",
-      school: "New Jersey Institute of Technology",
-      location: "Newark, NJ",
-      period: "Sep 2022 – May 2024",
-      gpa: "GPA: 4.0/4.0"
+      degree: "Bachelor of Science in Data Science",
+      degree2: "Bachelor of Science in Computer Science",
+      minor: "Mathematics"
+      school: "Loyola Maryland University Maryland",
+      location: "Baltimore, Maryland - United States",
+      period: "Sep 2023 – May 2027",
+      gpa: "President of Data Science Club"
+      relevant_coursework: "Coursework: Business Intelligence & Data Mining, Database Management Systems, Experimental Research Methods, Software Testing, Computer Systems, Computer Engineering, Object-Oriented Software Design"
     },
     {
-      degree: "Bachelor of Technology in Electronics and Communication",
-      school: "G.PullaReddy Engineering College",
-      location: "Kurnool, India", 
-      period: "Jul 2015 – May 2019",
+      degree: "Study Abroad Semester",
+      school: "Vrije Universiteit Amsterdam",
+      location: "Amsterdam, NL",
+      period: "Jan 2026 – May 2026",
       gpa: ""
+      relevant_coursework: "Computational Intelligence (Machine Learning), Linear Algebra, Information Management for CS"
     }
   ];
 
@@ -41,8 +45,16 @@ const Education = () => {
                     <h3 className="text-xl font-semibold text-primary mb-2">
                       {edu.degree}
                     </h3>
+                    <h3 className="text-xl font-semibold text-primary mb-2">
+                      {edu.degree2}
+                    </h3>
+                    <h4 className="text-xl font-semibold text-primary mb-2">
+                      {edu.minor}
+                    </h4>
                     <p className="text-lg font-medium mb-1">{edu.school}</p>
                     <p className="text-muted-foreground">{edu.location}</p>
+                    <p></p>
+                    <h6 className="text-muted-foreground">{edu.relevant_coursework}</h6>
                   </div>
                   <div className="text-right mt-4 md:mt-0">
                     <p className="text-sm text-muted-foreground">{edu.period}</p>

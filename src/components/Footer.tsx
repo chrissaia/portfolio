@@ -45,9 +45,7 @@ const Footer = () => {
           {/* Copyright */}
           <div className="mt-8 pt-8 border-t border-border/20 text-center">
             <p className="text-muted-foreground flex items-center justify-center space-x-1">
-              <span>Made with</span>
-              <Heart className="w-4 h-4 text-red-500" />
-              <span>by Christopher Saia © 2024</span>
+              <span>Made by Christopher Saia © 2024</span>
             </p>
           </div>
         </div>

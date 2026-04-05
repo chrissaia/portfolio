@@ -34,7 +34,7 @@ const Hero = () => {
           {/* Main heading */}
           <h1 className="text-5xl md:text-7xl font-bold mb-6 animate-fade-in" style={{ animationDelay: '0.2s' }}>
             Hi, I'm{" "}
-            <span className="text-gradient">Christopher Saia</span>
+            <span className="text-gradient">Christopher Saia!</span>
           </h1>
           
           {/* Subtitle */}
@@ -44,15 +44,7 @@ const Hero = () => {
           
           {/* Description */}
           <p className="text-lg text-muted-foreground max-w-3xl mx-auto mb-12 animate-fade-in" style={{ animationDelay: '0.4s' }}>
-            Passionate about building intelligent systems that solve real-world problems.
-
-
-
-
-            "STILL FILL OUT"
-
-
-
+            Passionate about building intelligent systems that solve real-world problems. I bring creative solutions, reliability and dedication to the team.
           </p>
           
           {/* CTA buttons */}
