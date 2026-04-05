@@ -2,15 +2,15 @@ const Skills = () => {
   const skillCategories = [
     {
       title: "Machine Learning & AI",
-      skills: ["Python", "PyTorch", "LangChain", "Hugging Face", "XGBoost", "Scikit-learn"]
+      skills: ["Python", "PyTorch", "LiteLMM", "Scikit-learn", "Hugging Face", "XGBoost", "Neural Networks"]
     },
     {
       title: "Cloud & MLOps", 
-      skills: ["AWS SageMaker", "AWS Bedrock", "MLflow", "Docker", "Kubernetes", "FastAPI"]
+      skills: ["Google Cloud", "Open Telemetry", "MLflow", "Docker", "FastAPI", "LangFuse", "CI/CD Pipelines"]
     },
     {
       title: "Data & Analytics",
-      skills: ["SQL", "Power BI", "Tableau", "MongoDB", "PostgreSQL", "ETL Pipelines"]
+      skills: ["SQL", "Power BI", "SAS", "Tableau", "Pipelines", "Unit Testing"]
     }
   ];
 
@@ -23,7 +23,7 @@ const Skills = () => {
           </h2>
           
           <p className="text-center text-muted-foreground mb-12 animate-fade-in" style={{ animationDelay: '0.1s' }}>
-            Expertise in AI/ML, developing AI agents, RAG Frameworks, Healthcare AI, and Demand Forecasting
+            Expertise in AI/ML, Data Analytics, Data Engineering with focuses in Finance and Product Management.
           </p>
           
           <div className="grid md:grid-cols-3 gap-8 mb-16">
@@ -57,10 +57,9 @@ const Skills = () => {
             <div className="glass-card rounded-lg p-6 text-center">
               <h4 className="text-lg font-semibold text-primary mb-4">LLM & AI</h4>
               <div className="space-y-2">
-                <span className="inline-block px-3 py-1 bg-primary/10 text-primary rounded-full text-sm font-medium">GPT-4, LLaMA</span>
+                <span className="inline-block px-3 py-1 bg-primary/10 text-primary rounded-full text-sm font-medium">OpenAI, Claude, Gemini</span>
                 <span className="inline-block px-3 py-1 bg-primary/10 text-primary rounded-full text-sm font-medium">Prompt Engineering</span>
-                <span className="inline-block px-3 py-1 bg-primary/10 text-primary rounded-full text-sm font-medium">AI Agents</span>
-                <span className="inline-block px-3 py-1 bg-primary/10 text-primary rounded-full text-sm font-medium">RAG Frameworks</span>
+                <span className="inline-block px-3 py-1 bg-primary/10 text-primary rounded-full text-sm font-medium">Neural Networks, Neuroevolution</span>
               </div>
             </div>
             
@@ -69,7 +68,6 @@ const Skills = () => {
               <div className="space-y-2">
                 <span className="inline-block px-3 py-1 bg-primary/10 text-primary rounded-full text-sm font-medium">FastAPI</span>
                 <span className="inline-block px-3 py-1 bg-primary/10 text-primary rounded-full text-sm font-medium">Flask</span>
-                <span className="inline-block px-3 py-1 bg-primary/10 text-primary rounded-full text-sm font-medium">Airflow</span>
               </div>
             </div>
             
@@ -85,8 +83,8 @@ const Skills = () => {
             <div className="glass-card rounded-lg p-6 text-center">
               <h4 className="text-lg font-semibold text-primary mb-4">Certifications</h4>
               <div className="space-y-2">
-                <span className="inline-block px-3 py-1 bg-primary/10 text-primary rounded-full text-sm font-medium">AWS AI Practitioner</span>
-                <span className="inline-block px-3 py-1 bg-primary/10 text-primary rounded-full text-sm font-medium">IBM Data Science</span>
+                <span className="inline-block px-3 py-1 bg-primary/10 text-primary rounded-full text-sm font-medium">SAS - Business Intelligence and Analytics</span>
+                <span className="inline-block px-3 py-1 bg-primary/10 text-primary rounded-full text-sm font-medium">IBM AI Developer</span>
               </div>
             </div>
           </div>
