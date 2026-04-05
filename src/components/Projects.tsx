@@ -32,7 +32,7 @@ const Projects = () => {
       description: "Covers every single lesson in the infamous stanford CS229 course with 2D/3D visualization and explanations of algorithms using math. Topics covered: Gradient descent, Logistic Regression, Generalized Linear Model, GDA, Naive Bayes, Support Vector Machines, SVM Dual + KKT, Kernels, K-Means Cluster, EM, PCA + ICA, MDPs, Continuous MDPs + Simulators, LQR, Policy Search",
       tags: ["Numpy", "Scikit-learn"],
       githubUrl: "https://github.com/chrissaia/Concept-Overview_StanfordCS229"
-    }
+    },
     {
       title: "Spotify Playlist Manager",
       description: "Fetches playlist data from the Spotify API using playlist ID. Organizes tracks by artist, genre, and popularity. Exports playlist data to a CSV file. Visualizes genre distribution using bar charts generated with Matplotlib. Sorts tracks based on multiple metrics such as genre and popularity. Caches results to reduce API calls for repeated playlist requests.",
