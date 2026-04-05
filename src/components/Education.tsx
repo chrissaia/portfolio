@@ -7,7 +7,8 @@ const Education = () => {
       location: "Baltimore, Maryland - United States",
       period: "Sep 2023 – May 2027",
       gpa: "President of Data Science Club",
-      relevant_coursework: "Coursework:  Business Intelligence & Data Mining, Database Management Systems, Experimental Research Methods, Software Testing, Computer Systems, Computer Engineering, Object-Oriented Software Design"
+      relevant_coursework: "Coursework:  Business Intelligence & Data Mining, Database Management Systems, Experimental Research Methods, Software Testing, Computer Systems, Computer Engineering, Object-Oriented Software Design",
+      awards: "Awards:  Dean’s List, Dean’s Scholarship, Hyman Scholars (STEM Scholarship at Loyola), 1st place in Philosophy Essay Competition"
     },
     {
       degree: "Study Abroad Semester",
@@ -15,7 +16,8 @@ const Education = () => {
       location: "Amsterdam, NL",
       period: "Jan 2026 – May 2026",
       gpa: "",
-      relevant_coursework: "Coursework:  Computational Intelligence (Machine Learning), Linear Algebra, Information Management for CS"
+      relevant_coursework: "Coursework:  Computational Intelligence (Machine Learning), Linear Algebra, Information Management for CS",
+      awards: ""
     }
   ];
 
@@ -49,9 +51,10 @@ const Education = () => {
                     </h4>
                     <p className="text-lg font-medium mb-1">{edu.school}</p>
                     <p className="text-muted-foreground mb-2">{edu.location}</p>
-                    <p className="text-muted-foreground">{edu.relevant_coursework}</p>
+                    <p className="text-muted-foreground mb-2">{edu.relevant_coursework}</p>
+                    <p className="text-muted-foreground">{edu.awards}</p>
                   </div>
-                  <div className="text-right mt-4 md:mt-0 md:ms-10">
+                  <div className="text-right mt-4 md:mt-0 md:ms-20">
                     <p className="text-sm text-muted-foreground">{edu.period}</p>
                     {edu.gpa && <p className="text-sm font-medium text-primary">{edu.gpa}</p>}
                   </div>

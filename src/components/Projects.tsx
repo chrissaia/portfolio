@@ -75,11 +75,16 @@ const Projects = () => {
                         </Button>
                       )}
                       {project.liveUrl && (
-                        <Button size="sm" variant="outline" asChild>
-                          <a href={project.liveUrl} target="_blank" rel="noopener noreferrer">
-                            <ExternalLink className="w-4 h-4" />
-                          </a>
-                        </Button>
+                        <div className="flex items-center gap-2">
+                          <Button size="sm" variant="outline" asChild>
+                            <a href={project.liveUrl} target="_blank" rel="noopener noreferrer">
+                              <ExternalLink className="w-4 h-4" />
+                            </a>
+                            </Button>
+                            <span className="text-xs text-muted-foreground whitespace-nowrap">
+                              See website
+                            </span>
+                        </div>
                       )}
                     </div>
                   </div>
