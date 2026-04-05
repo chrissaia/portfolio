@@ -54,7 +54,7 @@ const Education = () => {
                     <p className="text-muted-foreground mb-2">{edu.relevant_coursework}</p>
                     <p className="text-muted-foreground">{edu.awards}</p>
                   </div>
-                  <div className="text-right mt-4 md:mt-0 md:ms-20">
+                  <div className="mt-4 md:mt-0 md:ml-8 shrink-0 text-right whitespace-nowrap">
                     <p className="text-sm text-muted-foreground">{edu.period}</p>
                     {edu.gpa && <p className="text-sm font-medium text-primary">{edu.gpa}</p>}
                   </div>
