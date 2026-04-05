@@ -1,14 +1,13 @@
 const Education = () => {
   const education = [
     {
-      degree: "Bachelor of Science in Data Science",
-      degree2: "Bachelor of Science in Computer Science",
-      minor: "Mathematics",
+      degree: "Bachelor of Science in Data Science & Computer Science",
+      minor: "Minor in Mathematics",
       school: "Loyola Maryland University Maryland",
       location: "Baltimore, Maryland - United States",
       period: "Sep 2023 – May 2027",
       gpa: "President of Data Science Club",
-      relevant_coursework: "Coursework: Business Intelligence & Data Mining, Database Management Systems, Experimental Research Methods, Software Testing, Computer Systems, Computer Engineering, Object-Oriented Software Design"
+      relevant_coursework: "Coursework:  Business Intelligence & Data Mining, Database Management Systems, Experimental Research Methods, Software Testing, Computer Systems, Computer Engineering, Object-Oriented Software Design"
     },
     {
       degree: "Study Abroad Semester",
@@ -16,7 +15,7 @@ const Education = () => {
       location: "Amsterdam, NL",
       period: "Jan 2026 – May 2026",
       gpa: "",
-      relevant_coursework: "Computational Intelligence (Machine Learning), Linear Algebra, Information Management for CS"
+      relevant_coursework: "Coursework:  Computational Intelligence (Machine Learning), Linear Algebra, Information Management for CS"
     }
   ];
 
@@ -42,21 +41,16 @@ const Education = () => {
               >
                 <div className="flex flex-col md:flex-row md:justify-between md:items-start mb-4">
                   <div>
-                    <h3 className="text-xl font-semibold text-primary mb-2">
+                    <h3 className="text-xl font-semibold text-primary mb-1">
                       {edu.degree}
-                    </h3>
-                    <h3 className="text-xl font-semibold text-primary mb-2">
-                      {edu.degree2}
-                    </h3>
-                    <h4 className="text-xl font-semibold text-primary mb-2">
+                    <h4 className="text-lg font-light text-primary mb-2">
                       {edu.minor}
                     </h4>
                     <p className="text-lg font-medium mb-1">{edu.school}</p>
-                    <p className="text-muted-foreground">{edu.location}</p>
-                    <p></p>
+                    <p className="text-muted-foreground mb-2">{edu.location}</p>
                     <h6 className="text-muted-foreground">{edu.relevant_coursework}</h6>
                   </div>
-                  <div className="text-right mt-4 md:mt-0">
+                  <div className="text-right mt-4 md:mt-0 md:ms-10">
                     <p className="text-sm text-muted-foreground">{edu.period}</p>
                     {edu.gpa && <p className="text-sm font-medium text-primary">{edu.gpa}</p>}
                   </div>

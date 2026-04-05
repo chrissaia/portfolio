@@ -4,41 +4,41 @@ import { ExternalLink, Github } from "lucide-react";
 const Projects = () => {
   const projects = [
     {
-      title: "Donors Choose Prediction",
-      description: "Developed a predictive model for DonorsChoose, forecasting project funding within 60 days using a Kaggle dataset of 1.4 million submissions. Achieved a top AUC of 0.88 with XGBoost model.",
-      tags: ["Python", "XGBoost", "TF-IDF", "LSTM", "Kaggle"],
-      githubUrl: "https://github.com/venkataseetharam/Donors-choose"
+      title: "Churn Prediction Model",
+      description: "This project delivers an end to end workflow for churn prediction using the Telco Customer Churn dataset. It ensures consistency between training and inference, validates incoming data, and exposes a FastAPI service for real time predictions.",
+      tags: ["Python", "XGBoost", "CI/CD", "LiteLLM", "Google Cloud", "OTEL Tracing", "Optuna", "Pytest", "Kaggle"],
+      liveUrl: "https://churn-app-157873727094.europe-west1.run.app/ui"
     },
     {
-      title: "Traffic Segmentation using CANET",
-      description: "Developed a novel Attention-guided Chained Context Aggregation method for semantic segmentation, targeting traffic scenarios in India. Achieved IoU improvement from 0.5 to 0.7 over standard U-Net.",
-      tags: ["Computer Vision", "Deep Learning", "PyTorch", "Segmentation"],
-      githubUrl: "https://github.com/venkataseetharam/CANET"
+      title: "XAI | Sentiment Analysis Explanations with LIME/SHAP ",
+      description: "Using LIME and SHAP to uncover a black-box sentiment‑analysis model. The goal is to better understand how a pre‑trained DistilBERT model makes predictions, to find its strengths and weaknesses, and to evaluate its behaviour under negation, sarcasm, spelling noise and fairness scenarios.",
+      tags: ["NLP", "Pytorch", "Pandas", "Lime", "SHAP", "Matplotlib"],
+      githubUrl: "https://github.com/chrissaia/CS483-final-NLP-Model-Testing"
     },
     {
-      title: "Human Activity Recognition",
-      description: "Built a model that predicts human activities (Walking, Sitting, Standing, etc.) using smartphone sensor data from 30 subjects. Utilized accelerometer and gyroscope data for classification.",
-      tags: ["Machine Learning", "Sensor Data", "Classification", "Scikit-learn"],
-      githubUrl: "https://github.com/venkataseetharam/Human-activity-recognition"
+      title: "Movie Recommendation System",
+      description: "Engineered a content-based movie recommender in Python using TF-IDF and cosine similarity across 6,000+ films."
+      tags: ["Recommendation System", "Python", "Data Pipline", "Kaggle"],
+      githubUrl: "https://github.com/chrissaia/Movie-Reccomender-AI"
     },
     {
-      title: "Amazon Fashion Discovery Engine",
-      description: "Built an apparel recommendation system using Amazon apparel dataset with text-based product similarity. Implemented advanced NLP techniques for product matching.",
-      tags: ["NLP", "Recommendation System", "Text Mining", "Python"],
-      githubUrl: "https://github.com/venkataseetharam/Amazonfashiondiscoveryengine"
+      title: "Computational Intelligence Course Projects",
+      description: "This repo contains five projects covering class material. Optimization, Evolutionary Algorithms, Reinforcement Learning, Neural Networks, and Neuroevolution. Each project uses strictly numpy for creating each algorithm to fully understand the algorithms and their implementations.",
+      tags: ["Numpy", "Scikit-learn", "Pytorch", "Neural Networks", "Neuroevolution", "Reinforcement Learning", "Optimization", "Gymnasium"],
+      githubUrl: "https://github.com/chrissaia/Computational_Intelligence"
     },
     {
-      title: "Personalized Cancer Diagnosis",
-      description: "Developed a Machine Learning algorithm that automatically classifies genetic variations using knowledge base as baseline. Performed intensive data analysis with class balancing techniques.",
-      tags: ["Healthcare AI", "Genetic Analysis", "Classification", "Bioinformatics"],
-      githubUrl: "https://github.com/venkataseetharam/PersonalizedCancerDiagnosis"
-    },
-    {
-      title: "Patent Score Prediction",
-      description: "Developed a predictive model to assess patent acceptance scores using Harvard USPTO dataset and DistilBERT NLP techniques. Advanced data preprocessing and feature engineering for enhanced accuracy.",
-      tags: ["NLP", "DistilBERT", "Patent Analysis", "Transformers"],
-      liveUrl: "https://sites.google.com/view/ustpo-app"
+      title: "Stanford CS229 Lesson Projects",
+      description: "Covers every single lesson in the infamous stanford CS229 course with 2D/3D visualization and explanations of algorithms using math. Topics covered: Gradient descent, Logistic Regression, Generalized Linear Model, GDA, Naive Bayes, Support Vector Machines, SVM Dual + KKT, Kernels, K-Means Cluster, EM, PCA + ICA, MDPs, Continuous MDPs + Simulators, LQR, Policy Search",
+      tags: ["Numpy", "Scikit-learn"],
+      githubUrl: "https://github.com/chrissaia/Concept-Overview_StanfordCS229"
     }
+    {
+      title: "Spotify Playlist Manager",
+      description: "Fetches playlist data from the Spotify API using playlist ID. Organizes tracks by artist, genre, and popularity. Exports playlist data to a CSV file. Visualizes genre distribution using bar charts generated with Matplotlib. Sorts tracks based on multiple metrics such as genre and popularity. Caches results to reduce API calls for repeated playlist requests.",
+      tags: ["Flask", "Spotify API", "Matplotlib", "Python"],
+      githubUrl: "https://github.com/chrissaia/spotify-API"
+    },
   ];
 
   return (
@@ -107,7 +107,7 @@ const Projects = () => {
           {/* View more projects button */}
           <div className="text-center mt-12 animate-fade-in" style={{ animationDelay: '0.8s' }}>
             <Button variant="outline" size="lg" className="border-primary/20 hover:bg-primary/10" asChild>
-              <a href="https://www.github.com/venkataseetharam" target="_blank" rel="noopener noreferrer">
+              <a href="https://www.github.com/chrissaia" target="_blank" rel="noopener noreferrer">
                 View All Projects on GitHub
               </a>
             </Button>

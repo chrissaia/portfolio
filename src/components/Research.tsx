@@ -26,7 +26,7 @@ const Research = () => {
             Sharing insights on AI, Machine Learning, and Data Science
           </p>
           
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+          <div className="grid md:grid-cols-2 lg:grid-cols-2 gap-6">
             {research.map((search, index) => (
               <div
                 key={index}
