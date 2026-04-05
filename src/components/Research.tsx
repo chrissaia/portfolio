@@ -7,14 +7,14 @@ const Research = () => {
       description:
         "Analyzing retail sales trends and revenue drivers through decision trees and logistic regression to identify high-margin transaction patterns.",
       date: "December 16, 2025",
-      link: "/research/dillards",
+      link: "https://drive.google.com/file/d/1WnccjiiLIIVgi6upDraorXW8KqCEmpXo/view?usp=sharing",
     },
     {
       title: "Movie Recommender Systems",
       description:
         "Designing a content-based recommendation system using cosine similarity, feature extraction, and large-scale movie metadata.",
       date: "March 23, 2024",
-      link: "/research/movie-recommender",
+      link: "https://drive.google.com/file/d/10mLEbo06bpRBHM9i_BNxd6OnMufJsVTb/view?usp=sharing",
     },
   ];
 

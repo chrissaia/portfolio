@@ -6,7 +6,7 @@ const DillardResearch = () => {
       <div className="container mx-auto px-6 py-16">
         <div className="max-w-4xl mx-auto">
           <Link
-            to="/"
+            to="/#research"
             className="text-sm text-primary hover:text-primary/80 transition-colors"
           >
             ← Back to Home
