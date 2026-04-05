@@ -27,24 +27,24 @@ const Research = () => {
           </p>
           
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {research.map((blog, index) => (
+            {research.map((search, index) => (
               <div
                 key={index}
                 className="glass-card rounded-lg p-6 animate-fade-in hover:scale-105 transition-transform duration-300"
                 style={{ animationDelay: `${index * 0.2}s` }}
               >
                 <h3 className="text-lg font-semibold text-primary mb-3">
-                  {blog.title}
+                  {search.title}
                 </h3>
 
                 <p className="text-muted-foreground text-sm mb-4">
-                  {blog.description}
+                  {search.description}
                 </p>
 
                 <div className="flex justify-between items-center">
-                  <span className="text-xs text-muted-foreground">{blog.date}</span>
+                  <span className="text-xs text-muted-foreground">{search.date}</span>
                   <a
-                    href={blog.link}
+                    href={search.link}
                     className="text-primary hover:text-primary/80 text-sm font-medium transition-colors"
                   >
                     Read More →
