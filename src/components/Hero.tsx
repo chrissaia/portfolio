@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { ChevronDown, Github, Linkedin, Mail } from "lucide-react";
-import venkataPic from "@/assets/venkata-profile.png";
+import chrisPic from "@/assets/chris-profile.jpg";
 
 const Hero = () => {
   return (
@@ -24,8 +24,8 @@ const Hero = () => {
             <div className="relative w-48 h-48 mx-auto">
               <div className="absolute inset-0 bg-gradient-to-r from-primary to-accent rounded-full"></div>
               <img
-                src={venkataPic}
-                alt="Venkata Seetharam Profile"
+                src={chrisPic}
+                alt="Christopher Saia Profile"
                 className="relative w-44 h-44 mx-auto mt-2 rounded-full object-cover border-4 border-background shadow-2xl"
               />
             </div>
@@ -34,7 +34,7 @@ const Hero = () => {
           {/* Main heading */}
           <h1 className="text-5xl md:text-7xl font-bold mb-6 animate-fade-in" style={{ animationDelay: '0.2s' }}>
             Hi, I'm{" "}
-            <span className="text-gradient">Venkata Seetharam</span>
+            <span className="text-gradient">Christopher Saia</span>
           </h1>
           
           {/* Subtitle */}
@@ -44,8 +44,15 @@ const Hero = () => {
           
           {/* Description */}
           <p className="text-lg text-muted-foreground max-w-3xl mx-auto mb-12 animate-fade-in" style={{ animationDelay: '0.4s' }}>
-            Passionate about building intelligent systems that solve real-world problems. Experienced in developing AI Agents, RAG frameworks,
-            domain-specific chatbots, and recommendation engines that drive actionable insights and accelerate decision-making.
+            Passionate about building intelligent systems that solve real-world problems.
+
+
+
+
+            "STILL FILL OUT"
+
+
+
           </p>
           
           {/* CTA buttons */}
@@ -69,13 +76,13 @@ const Hero = () => {
           
           {/* Social links */}
           <div className="flex justify-center space-x-6 mb-16 animate-fade-in" style={{ animationDelay: '0.6s' }}>
-            <a href="https://www.github.com/venkataseetharam" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors">
+            <a href="https://www.github.com/chrissaia" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors">
               <Github className="w-6 h-6" />
             </a>
-            <a href="https://www.linkedin.com/in/venkata-seetharam" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors">
+            <a href="https://www.linkedin.com/in/christopher-saia" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors">
               <Linkedin className="w-6 h-6" />
             </a>
-            <a href="mailto:pendekantiseetharam@gmail.com" className="text-muted-foreground hover:text-primary transition-colors">
+            <a href="mailto:christopherfsaia@gmail.com" className="text-muted-foreground hover:text-primary transition-colors">
               <Mail className="w-6 h-6" />
             </a>
           </div>

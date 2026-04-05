@@ -8,14 +8,14 @@ const Footer = () => {
           <div className="flex flex-col md:flex-row items-center justify-between space-y-6 md:space-y-0">
             {/* Brand */}
             <div className="text-center md:text-left">
-              <h3 className="text-xl font-bold text-gradient mb-2">Venkata Seetharam</h3>
+              <h3 className="text-xl font-bold text-gradient mb-2">Christopher Saia</h3>
               <p className="text-muted-foreground">AI Engineer & Data Scientist</p>
             </div>
             
             {/* Social links */}
             <div className="flex space-x-6">
               <a 
-                href="https://www.github.com/venkataseetharam" 
+                href="https://www.github.com/chrissaia"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-muted-foreground hover:text-primary transition-colors"
@@ -24,7 +24,7 @@ const Footer = () => {
                 <Github className="w-5 h-5" />
               </a>
               <a 
-                href="https://www.linkedin.com/in/venkata-seetharam-pendekanti/" 
+                href="https://www.linkedin.com/in/christopher-saia/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-muted-foreground hover:text-primary transition-colors"
@@ -33,7 +33,7 @@ const Footer = () => {
                 <Linkedin className="w-5 h-5" />
               </a>
               <a 
-                href="mailto:pendekantiseetharam@gmail.com" 
+                href="mailto:christopherfsaia@gmail.com"
                 className="text-muted-foreground hover:text-primary transition-colors"
                 aria-label="Email"
               >
@@ -47,7 +47,7 @@ const Footer = () => {
             <p className="text-muted-foreground flex items-center justify-center space-x-1">
               <span>Made with</span>
               <Heart className="w-4 h-4 text-red-500" />
-              <span>by Venkata Seetharam © 2024</span>
+              <span>by Christopher Saia © 2024</span>
             </p>
           </div>
         </div>
