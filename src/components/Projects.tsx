@@ -28,9 +28,9 @@ const Projects = () => {
       githubUrl: "https://github.com/chrissaia/Computational_Intelligence"
     },
     {
-      title: "Stanford CS229 Lesson Projects",
-      description: "Covers every single lesson in the infamous stanford CS229 course with 2D/3D visualization and explanations of algorithms using math. Topics covered: Gradient descent, Logistic Regression, Generalized Linear Model, GDA, Naive Bayes, Support Vector Machines, SVM Dual + KKT, Kernels, K-Means Cluster, EM, PCA + ICA, MDPs, Continuous MDPs + Simulators, LQR, Policy Search",
-      tags: ["Numpy", "Scikit-learn"],
+      title: "Stanford CS229 Machine Learning Lessons Project",
+      description: "Covers every single lesson in the infamous Stanford CS229 Machine Learning course with 2D + 3D visualizations and in depth explanations of each algorithm using extensive and easy to understand math. This is the ultimate guide for full comprehension and passing CS229.
+      tags: ["Numpy", "Scikit-learn", "Gradient descent", "Logistic Regression", "Generalized Linear Model", "GDA", "Naive Bayes", "Support Vector Machines", "Kernels", "K-Means", "EM", "PCA", "ICA", "MDPs", "Simulators", "LQR", "Policy Search"],
       githubUrl: "https://github.com/chrissaia/Concept-Overview_StanfordCS229"
     },
     {
