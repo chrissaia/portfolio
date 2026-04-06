@@ -29,7 +29,7 @@ const Projects = () => {
     },
     {
       title: "Stanford CS229 Machine Learning Lessons Project",
-      description: "Covers every single lesson in the infamous Stanford CS229 Machine Learning course with 2D + 3D visualizations and in depth explanations of each algorithm using extensive and easy to understand math. This is the ultimate guide for full comprehension and passing CS229.
+      description: "Covers every single lesson in the infamous Stanford CS229 Machine Learning course with 2D + 3D visualizations and in depth explanations of each algorithm using extensive and easy to understand math. This is the ultimate guide for full comprehension and passing CS229.",
       tags: ["Numpy", "Scikit-learn", "Gradient descent", "Logistic Regression", "Generalized Linear Model", "GDA", "Naive Bayes", "Support Vector Machines", "Kernels", "K-Means", "EM", "PCA", "ICA", "MDPs", "Simulators", "LQR", "Policy Search"],
       githubUrl: "https://github.com/chrissaia/Concept-Overview_StanfordCS229"
     },
