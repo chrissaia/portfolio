@@ -2,7 +2,7 @@
 
 ## Project info
 
-**URL**: https://lovable.dev/projects/0eb6efbc-a1b2-449b-948b-6aacc73f640f
+**URL**: https://chrissaia.pages.dev/portfolio
 
 ## How can I edit this code?
 
