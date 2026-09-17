@@ -2,16 +2,62 @@ const Skills = () => {
   const skillCategories = [
     {
       title: "Machine Learning & AI",
-      skills: ["Python", "PyTorch", "LiteLLM", "Scikit-learn", "Hugging Face", "XGBoost", "Neural Networks"]
+      skills: [
+        "Python",
+        "PyTorch",
+        "XGBoost",
+        "LightGBM",
+        "Scikit-learn",
+        "Pandas",
+        "NumPy",
+        "OpenCV"
+      ]
     },
     {
-      title: "Cloud & MLOps", 
-      skills: ["Google Cloud", "Open Telemetry", "MLflow", "Docker", "FastAPI", "LangFuse", "CI/CD Pipelines"]
+      title: "ML Engineering & MLOps",
+      skills: [
+        "FastAPI",
+        "MLflow",
+        "Docker",
+        "TensorRT",
+        "Pydantic",
+        "Pandera",
+        "Pytest",
+        "OpenTelemetry"
+      ]
     },
     {
-      title: "Data & Analytics",
-      skills: ["SQL", "Power BI", "SAS", "Tableau", "Pipelines", "Unit Testing"]
+      title: "Software & Cloud",
+      skills: [
+        "SQL",
+        "TypeScript",
+        "Java",
+        "C",
+        "AWS",
+        "Google Cloud",
+        "Git",
+        "Linux"
+      ]
     }
+  ];
+
+  const focusAreas = [
+    "Machine Learning Engineering",
+    "Recommendation Systems",
+    "Computer Vision",
+    "Financial ML",
+    "Model Serving",
+    "LLM Integration"
+  ];
+
+  const additionalTools = [
+    "Next.js",
+    "LiteLLM",
+    "REST APIs",
+    "GitHub Actions",
+    "Power BI",
+    "SAS",
+    "Tableau"
   ];
 
   return (
@@ -21,14 +67,19 @@ const Skills = () => {
           <h2 className="text-4xl font-bold text-center mb-4 animate-fade-in">
             Technical Skills
           </h2>
-          
-          <p className="text-center text-muted-foreground mb-12 animate-fade-in" style={{ animationDelay: '0.1s' }}>
-            Expertise in AI/ML, Data Analytics, Data Engineering with focuses in Computer Vision, Finance and Product Management.
+
+          <p
+            className="text-center text-muted-foreground mb-12 animate-fade-in"
+            style={{ animationDelay: "0.1s" }}
+          >
+            Experience building machine learning systems across forecasting,
+            recommendation systems, computer vision, model deployment, and
+            production ML infrastructure.
           </p>
-          
-          <div className="grid md:grid-cols-3 gap-8 mb-16">
+
+          <div className="grid md:grid-cols-3 gap-8 mb-12">
             {skillCategories.map((category, categoryIndex) => (
-              <div 
+              <div
                 key={category.title}
                 className="glass-card rounded-lg p-6 animate-fade-in"
                 style={{ animationDelay: `${categoryIndex * 0.2}s` }}
@@ -36,13 +87,17 @@ const Skills = () => {
                 <h3 className="text-xl font-semibold text-primary mb-6 text-center">
                   {category.title}
                 </h3>
-                
-                <div className="flex flex-wrap gap-2">
+
+                <div className="flex flex-wrap gap-2 justify-center">
                   {category.skills.map((skill, skillIndex) => (
-                    <span 
+                    <span
                       key={skill}
                       className="px-3 py-1 bg-primary/10 text-primary rounded-full text-sm font-medium animate-fade-in"
-                      style={{ animationDelay: `${(categoryIndex * 0.2) + (skillIndex * 0.1)}s` }}
+                      style={{
+                        animationDelay: `${
+                          categoryIndex * 0.2 + skillIndex * 0.05
+                        }s`
+                      }}
                     >
                       {skill}
                     </span>
@@ -51,43 +106,56 @@ const Skills = () => {
               </div>
             ))}
           </div>
-          
-          {/* Additional skill categories - Highlighted */}
-          <div className="grid md:grid-cols-4 gap-6 animate-fade-in" style={{ animationDelay: '0.8s' }}>
-            <div className="glass-card rounded-lg p-6 text-center">
-              <h4 className="text-lg font-semibold text-primary mb-4">LLM & AI</h4>
-              <div className="space-y-2">
-                <span className="inline-block px-3 py-1 bg-primary/10 text-primary rounded-full text-sm font-medium">OpenAI, Claude, Gemini</span>
-                <span className="inline-block px-3 py-1 bg-primary/10 text-primary rounded-full text-sm font-medium">Prompt Engineering</span>
-                <span className="inline-block px-3 py-1 bg-primary/10 text-primary rounded-full text-sm font-medium">Neural Networks</span>
-                 <span className="inline-block px-3 py-1 bg-primary/10 text-primary rounded-full text-sm font-medium">Neuroevolution</span>
+
+          <div
+            className="grid md:grid-cols-3 gap-6 animate-fade-in"
+            style={{ animationDelay: "0.7s" }}
+          >
+            <div className="glass-card rounded-lg p-6 text-center md:col-span-2">
+              <h4 className="text-lg font-semibold text-primary mb-4">
+                Areas of Focus
+              </h4>
+
+              <div className="flex flex-wrap gap-2 justify-center">
+                {focusAreas.map((focus) => (
+                  <span
+                    key={focus}
+                    className="px-3 py-1 bg-primary/10 text-primary rounded-full text-sm font-medium"
+                  >
+                    {focus}
+                  </span>
+                ))}
+              </div>
+
+              <h4 className="text-lg font-semibold text-primary mt-6 mb-4">
+                Additional Tools
+              </h4>
+
+              <div className="flex flex-wrap gap-2 justify-center">
+                {additionalTools.map((tool) => (
+                  <span
+                    key={tool}
+                    className="px-3 py-1 bg-primary/10 text-primary rounded-full text-sm font-medium"
+                  >
+                    {tool}
+                  </span>
+                ))}
               </div>
             </div>
-            
+
             <div className="glass-card rounded-lg p-6 text-center">
-              <h4 className="text-lg font-semibold text-primary mb-4">Frameworks</h4>
-              <div className="space-y-2">
-                <span className="inline-block px-3 py-1 bg-primary/10 text-primary rounded-full text-sm font-medium">FastAPI</span>
-                <span className="inline-block px-3 py-1 bg-primary/10 text-primary rounded-full text-sm font-medium">Flask</span>
-                <span className="inline-block px-3 py-1 bg-primary/10 text-primary rounded-full text-sm font-medium">Gradio</span>
-              </div>
-            </div>
-            
-            <div className="glass-card rounded-lg p-6 text-center">
-              <h4 className="text-lg font-semibold text-primary mb-4">Specializations</h4>
-              <div className="space-y-2">
-                <span className="inline-block px-3 py-1 bg-primary/10 text-primary rounded-full text-sm font-medium">AI Product Management</span>
-                <span className="inline-block px-3 py-1 bg-primary/10 text-primary rounded-full text-sm font-medium">Computer Vision</span>
-                <span className="inline-block px-3 py-1 bg-primary/10 text-primary rounded-full text-sm font-medium">MLOps</span>
-                 <span className="inline-block px-3 py-1 bg-primary/10 text-primary rounded-full text-sm font-medium">Financial AI</span>
-              </div>
-            </div>
-            
-            <div className="glass-card rounded-lg p-6 text-center">
-              <h4 className="text-lg font-semibold text-primary mb-4">Certifications</h4>
-              <div className="space-y-2">
-                <span className="inline-block px-3 py-1 bg-primary/10 text-primary rounded-full text-sm font-medium">SAS - Business Intelligence and Analytics</span>
-                <span className="inline-block px-3 py-1 bg-primary/10 text-primary rounded-full text-sm font-medium">IBM AI Developer</span>
+              <h4 className="text-lg font-semibold text-primary mb-4">
+                Certifications
+              </h4>
+
+              <div className="space-y-3">
+                <span className="block px-3 py-1 bg-primary/10 text-primary rounded-full text-sm font-medium">
+                  IBM AI Developer
+                </span>
+
+                <span className="block px-3 py-1 bg-primary/10 text-primary rounded-full text-sm font-medium">
+                  SAS Business Intelligence & Analytics
+                </span>
               </div>
             </div>
           </div>
