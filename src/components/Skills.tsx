@@ -81,32 +81,28 @@ const Skills = () => {
           
           {/* Additional skill categories - Highlighted */}
           <div className="grid md:grid-cols-4 gap-6 animate-fade-in" style={{ animationDelay: '0.8s' }}>
-            <div className="glass-card rounded-lg p-6 text-center">
-              <h4 className="text-lg font-semibold text-primary mb-4">LLM & AI</h4>
-              <div className="space-y-2">
-                <span className="inline-block px-3 py-1 bg-primary/10 text-primary rounded-full text-sm font-medium">OpenAI, Claude, Gemini</span>
-                <span className="inline-block px-3 py-1 bg-primary/10 text-primary rounded-full text-sm font-medium">Prompt Engineering</span>
-                <span className="inline-block px-3 py-1 bg-primary/10 text-primary rounded-full text-sm font-medium">Neural Networks</span>
-                 <span className="inline-block px-3 py-1 bg-primary/10 text-primary rounded-full text-sm font-medium">Neuroevolution</span>
-              </div>
-            </div>
             
             <div className="glass-card rounded-lg p-6 text-center">
-              <h4 className="text-lg font-semibold text-primary mb-4">Frameworks</h4>
+              <h4 className="text-lg font-semibold text-primary mb-4">Additional Tools</h4>
               <div className="space-y-2">
-                <span className="inline-block px-3 py-1 bg-primary/10 text-primary rounded-full text-sm font-medium">FastAPI</span>
-                <span className="inline-block px-3 py-1 bg-primary/10 text-primary rounded-full text-sm font-medium">Flask</span>
-                <span className="inline-block px-3 py-1 bg-primary/10 text-primary rounded-full text-sm font-medium">Gradio</span>
+                <span className="inline-block px-3 py-1 bg-primary/10 text-primary rounded-full text-sm font-medium">LiteLLM</span>
+                <span className="inline-block px-3 py-1 bg-primary/10 text-primary rounded-full text-sm font-medium">REST APIs</span>
+                <span className="inline-block px-3 py-1 bg-primary/10 text-primary rounded-full text-sm font-medium">SAS</span>
+                <span className="inline-block px-3 py-1 bg-primary/10 text-primary rounded-full text-sm font-medium">Tableau</span>
+                <span className="inline-block px-3 py-1 bg-primary/10 text-primary rounded-full text-sm font-medium">GitHub Actions</span>
+                <span className="inline-block px-3 py-1 bg-primary/10 text-primary rounded-full text-sm font-medium">REST APIs</span>
+                <span className="inline-block px-3 py-1 bg-primary/10 text-primary rounded-full text-sm font-medium">Tableau</span>
+
               </div>
             </div>
             
             <div className="glass-card rounded-lg p-6 text-center">
               <h4 className="text-lg font-semibold text-primary mb-4">Specializations</h4>
               <div className="space-y-2">
-                <span className="inline-block px-3 py-1 bg-primary/10 text-primary rounded-full text-sm font-medium">AI Product Management</span>
+                <span className="inline-block px-3 py-1 bg-primary/10 text-primary rounded-full text-sm font-medium">Recommendation Systems</span>
                 <span className="inline-block px-3 py-1 bg-primary/10 text-primary rounded-full text-sm font-medium">Computer Vision</span>
-                <span className="inline-block px-3 py-1 bg-primary/10 text-primary rounded-full text-sm font-medium">MLOps</span>
-                 <span className="inline-block px-3 py-1 bg-primary/10 text-primary rounded-full text-sm font-medium">Financial AI</span>
+                <span className="inline-block px-3 py-1 bg-primary/10 text-primary rounded-full text-sm font-medium">Model Serving</span>
+                 <span className="inline-block px-3 py-1 bg-primary/10 text-primary rounded-full text-sm font-medium">Financial ML</span>
               </div>
             </div>
             
