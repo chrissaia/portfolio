@@ -77,41 +77,12 @@ const Skills = () => {
             production ML infrastructure.
           </p>
 
-          <div className="grid md:grid-cols-3 gap-8 mb-12">
-            {skillCategories.map((category, categoryIndex) => (
-              <div
-                key={category.title}
-                className="glass-card rounded-lg p-6 animate-fade-in"
-                style={{ animationDelay: `${categoryIndex * 0.2}s` }}
-              >
-                <h3 className="text-xl font-semibold text-primary mb-6 text-center">
-                  {category.title}
-                </h3>
-
-                <div className="flex flex-wrap gap-2 justify-center">
-                  {category.skills.map((skill, skillIndex) => (
-                    <span
-                      key={skill}
-                      className="px-3 py-1 bg-primary/10 text-primary rounded-full text-sm font-medium animate-fade-in"
-                      style={{
-                        animationDelay: `${
-                          categoryIndex * 0.2 + skillIndex * 0.05
-                        }s`
-                      }}
-                    >
-                      {skill}
-                    </span>
-                  ))}
-                </div>
-              </div>
-            ))}
-          </div>
-
           <div
             className="grid md:grid-cols-3 gap-6 animate-fade-in"
             style={{ animationDelay: "0.7s" }}
           >
-            <div className="glass-card rounded-lg p-6 text-center md:col-span-2">
+            {/* Areas of Focus */}
+            <div className="glass-card rounded-lg p-6 text-center">
               <h4 className="text-lg font-semibold text-primary mb-4">
                 Areas of Focus
               </h4>
@@ -126,8 +97,11 @@ const Skills = () => {
                   </span>
                 ))}
               </div>
+            </div>
 
-              <h4 className="text-lg font-semibold text-primary mt-6 mb-4">
+            {/* Additional Tools */}
+            <div className="glass-card rounded-lg p-6 text-center">
+              <h4 className="text-lg font-semibold text-primary mb-4">
                 Additional Tools
               </h4>
 
@@ -143,6 +117,7 @@ const Skills = () => {
               </div>
             </div>
 
+            {/* Certifications */}
             <div className="glass-card rounded-lg p-6 text-center">
               <h4 className="text-lg font-semibold text-primary mb-4">
                 Certifications
