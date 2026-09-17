@@ -1,7 +1,7 @@
 const Education = () => {
   const education = [
     {
-      degree: "Bachelor of Science in Data Science & Computer Science",
+      degree: "Bachelor of Science in Data Science\nBachelor of Science in Computer Science",
       minor: "Minor in Mathematics",
       school: "Loyola Maryland University Maryland",
       location: "Baltimore, Maryland - United States",
@@ -43,7 +43,7 @@ const Education = () => {
               >
                 <div className="flex flex-col md:flex-row md:justify-between md:items-start mb-4">
                   <div>
-                    <h3 className="text-xl font-semibold text-primary mb-1">
+                    <h3 className="text-xl font-semibold text-primary mb-1 whitespace-pre-line">
                       {edu.degree}
                     </h3>
                     <h4 className="text-lg font-light text-primary mb-2">
