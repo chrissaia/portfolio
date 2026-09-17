@@ -2,15 +2,42 @@ const Skills = () => {
   const skillCategories = [
     {
       title: "Machine Learning & AI",
-      skills: ["Python", "PyTorch", "LiteLLM", "Scikit-learn", "Hugging Face", "XGBoost", "Neural Networks"]
+      skills: [
+        "Python",
+        "PyTorch",
+        "XGBoost",
+        "LightGBM",
+        "Scikit-learn",
+        "Pandas",
+        "NumPy",
+        "OpenCV"
+      ]
     },
     {
-      title: "Cloud & MLOps", 
-      skills: ["Google Cloud", "Open Telemetry", "MLflow", "Docker", "FastAPI", "LangFuse", "CI/CD Pipelines"]
+      title: "ML Engineering & MLOps",
+      skills: [
+        "FastAPI",
+        "MLflow",
+        "Docker",
+        "TensorRT",
+        "Pydantic",
+        "Pandera",
+        "Pytest",
+        "OpenTelemetry"
+      ]
     },
     {
-      title: "Data & Analytics",
-      skills: ["SQL", "Power BI", "SAS", "Tableau", "Pipelines", "Unit Testing"]
+      title: "Software & Cloud",
+      skills: [
+        "SQL",
+        "TypeScript",
+        "Java",
+        "C",
+        "AWS",
+        "Google Cloud",
+        "Git",
+        "Linux"
+      ]
     }
   ];
 
