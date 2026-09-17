@@ -4,22 +4,22 @@ import { ExternalLink, Github } from "lucide-react";
 const Projects = () => {
   const projects = [
     {
+      title: "DirectRec: Movie Recommendation System",
+      description: "A full-stack movie recommendation platform that uses GPT powered natural-language query understanding, cosine-similarity candidate retrieval, and LightGBM ranking to surface relevant movies based on genre, mood, themes, and viewing context. It combines a TypeScript frontend with a Python/FastAPI backend, OpenAI-powered intent extraction, Clerk authentication, social features such as shared lists and friend requests, and Dockerized deployment on Google Cloud Run with GitHub Actions CI/CD.",
+      tags: ["Recommendation System", "OpenAI API", "Python", "FastAPI", "TypeScript", "LightGBM", "Semantic Search", "Clerk Authentication", "Docker", "CI/CD", "GCP"],
+      liveUrl: "https://directrec.chrissaia.com/"
+    },
+    {
       title: "Churn Prediction Model",
       description: "This project delivers an end to end workflow for churn prediction using the Telco Customer Churn dataset. It ensures consistency between training and inference, validates incoming data, and exposes a FastAPI service for real time predictions.",
       tags: ["Python", "XGBoost", "CI/CD", "LiteLLM", "Google Cloud", "OTEL Tracing", "Optuna", "Pytest", "Kaggle"],
-      liveUrl: "https://churn-app-157873727094.europe-west1.run.app/ui"
+      liveUrl: "https://churn-app.chrissaia.com"
     },
     {
-      title: "XAI | Sentiment Analysis Explanations with LIME/SHAP ",
+      title: "Sentiment Analysis Explanations with LIME/SHAP ",
       description: "Using LIME and SHAP to uncover a black-box sentiment‑analysis model. The goal is to better understand how a pre‑trained DistilBERT model makes predictions, to find its strengths and weaknesses, and to evaluate its behaviour under negation, sarcasm, spelling noise and fairness scenarios.",
       tags: ["NLP", "Pytorch", "Pandas", "Lime", "SHAP", "Matplotlib"],
       githubUrl: "https://github.com/chrissaia/CS483-final-NLP-Model-Testing"
-    },
-    {
-      title: "Movie Recommendation System",
-      description: "Engineered a content-based movie recommender in Python using TF-IDF and cosine similarity across 6,000+ films.",
-      tags: ["Recommendation System", "Python", "Data Pipline", "Kaggle"],
-      liveUrl: "https://directrec.chrissaia.com/"
     },
     {
       title: "Computational Intelligence Course Projects",

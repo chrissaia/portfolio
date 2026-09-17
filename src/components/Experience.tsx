@@ -1,6 +1,19 @@
 const Experience = () => {
   const experiences = [
     {
+      title: "Data Engineer Intern",
+      company: "Rocket Money",
+      location: "Silver Spring, Maryland",
+      period: "May 2026 - Aug 2026",
+      achievements: [
+        "Developed a utility-bill forecasting system to improve recurring-payment predictions for highly seasonal expenses, working with large-scale financial transaction data and an existing production codebase.",
+        "Built and evaluated a 16-feature XGBoost forecasting pipeline across more than 22.5M transaction rows, reducing mean absolute error by 18.3% versus the existing repeat-last-bill baseline.",
+        "Designed routing logic and calibrated prediction intervals to better handle stable bills, seasonal behavior, and asymmetric under-budgeting risk, increasing actual-bill interval coverage from 69.1% to 78.7%.",
+        "Integrated feature-generation, inference, and serving components into the transaction-intelligence pipeline, added validation and testing, and deployed the model to an AWS development endpoint to verify parity between local and hosted predictions.",
+        "Worked closely with engineers and product partners to evaluate tradeoffs, communicate findings, and turn an open-ended forecasting problem into a production-oriented machine learning system."
+      ]
+    },
+    {
       title: "Deep Learning Intern",
       company: "Amizen Labs - threatvision.ai",
       location: "Remote",
@@ -11,16 +24,6 @@ const Experience = () => {
         "Used a dataset with 8,000 images in Roboflow, achieving mAP@50 = 0.98",
         "Optimized inference speed with TensorRT maximizing NGC container properties, boosting throughput from 5 FPS to 27 FPS (+440%) while maintaining accuracy",
         "Researched model pruning, quantization, and GPU profiling to analyze trade-offs between speed, precision, and storage usage on Jetson Nano",
-        "Documented results and delivered a video demonstration showcasing 92% detection accuracy and real-time insights",
-        ]
-    },
-    {
-      title: "Data Engineer Intern",
-      company: "Rocket Money",
-      location: "Silver Spring, Maryland",
-      period: "May 2026 - Aug 2026",
-      achievements: [
-        "To Be continued..."
         ]
     },
     {
