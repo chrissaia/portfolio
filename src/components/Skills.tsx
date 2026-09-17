@@ -80,7 +80,7 @@ const Skills = () => {
           </div>
           
           {/* Additional skill categories - Highlighted */}
-          <div className="grid md:grid-cols-4 gap-6 animate-fade-in" style={{ animationDelay: '0.8s' }}>
+          <div className="grid md:grid-cols-3 gap-6 animate-fade-in" style={{ animationDelay: '0.8s' }}>
             
             <div className="glass-card rounded-lg p-6 text-center">
               <h4 className="text-lg font-semibold text-primary mb-4">Additional Tools</h4>
