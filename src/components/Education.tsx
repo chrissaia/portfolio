@@ -43,7 +43,7 @@ const Education = () => {
               >
                 <div className="flex flex-col md:flex-row md:justify-between md:items-start mb-4">
                   <div>
-                    <h3 className="text-xl font-semibold text-primary mb-1 whitespace-pre-line">
+                    <h3 className="text-xl font-semibold text-primary mb-1">
                       {edu.degree}
                     </h3>
                     <h4 className="text-lg font-light text-primary mb-2">

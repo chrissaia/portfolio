@@ -7,6 +7,7 @@ import { useState } from "react";
 
 const Contact = () => {
   const { toast } = useToast();
+  const [isSubmitting, setIsSubmitting] = useState(false);
   const [formData, setFormData] = useState({
     firstName: '',
     lastName: '',
@@ -23,7 +24,7 @@ const Contact = () => {
     }));
   };
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     
     // Basic validation
@@ -36,30 +37,48 @@ const Contact = () => {
       return;
     }
 
-    // Create mailto link
-    const subject = encodeURIComponent(formData.subject || 'Contact from Portfolio');
-    const body = encodeURIComponent(
-      `Name: ${formData.firstName} ${formData.lastName}\nEmail: ${formData.email}\n\nMessage:\n${formData.message}`
-    );
-    const mailtoLink = `mailto:christopherfsaia@gmail.com?subject=${subject}&body=${body}`;
-    
-    // Open default email client
-    window.location.href = mailtoLink;
-    
-    // Show success message
-    toast({
-      title: "Success!",
-      description: "Your default email client should open now with the message pre-filled.",
-    });
-    
-    // Reset form
-    setFormData({
-      firstName: '',
-      lastName: '',
-      email: '',
-      subject: '',
-      message: ''
-    });
+    setIsSubmitting(true);
+
+    try {
+      const response = await fetch("https://formsubmit.co/ajax/christopherfsaia@gmail.com", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+          Accept: "application/json",
+        },
+        body: JSON.stringify({
+          name: `${formData.firstName} ${formData.lastName}`,
+          email: formData.email,
+          subject: formData.subject || "Contact from Portfolio",
+          message: formData.message,
+        }),
+      });
+
+      if (!response.ok) {
+        throw new Error("Message submission failed");
+      }
+
+      toast({
+        title: "Message sent!",
+        description: "Thanks for reaching out. I will get back to you soon.",
+      });
+
+      setFormData({
+        firstName: '',
+        lastName: '',
+        email: '',
+        subject: '',
+        message: ''
+      });
+    } catch {
+      toast({
+        title: "Unable to send message",
+        description: "Please try again or email me directly at christopherfsaia@gmail.com.",
+        variant: "destructive",
+      });
+    } finally {
+      setIsSubmitting(false);
+    }
   };
   return (
     <section id="contact" className="py-20">
@@ -219,8 +238,8 @@ const Contact = () => {
                   />
                 </div>
                 
-                <Button type="submit" className="w-full hero-gradient text-white hover:opacity-90 transition-opacity">
-                  Send Message
+                <Button type="submit" disabled={isSubmitting} className="w-full hero-gradient text-white hover:opacity-90 transition-opacity">
+                  {isSubmitting ? "Sending..." : "Send Message"}
                 </Button>
               </form>
             </div>
